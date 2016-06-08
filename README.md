@@ -6,6 +6,9 @@ duration: "1:25"
 creator:
     name: Ben Hulan
     city: SF
+adapted by:
+    name: Zeb Girouard
+    city: DEN
 competencies: Front-end intro
 ---
  -->
