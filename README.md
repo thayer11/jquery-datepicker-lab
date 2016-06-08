@@ -18,15 +18,15 @@ competencies: Front-end intro
 ### Objectives
 *After this lesson, students will be able to:*
 
-- Build a deceptively simple single-input form and calendar interface
-- Conceptualize the process of coding a ui element to meet specific design requirements
+- **Build** a deceptively simple single-input form and calendar interface
+- **Conceptualize** the process of coding a ui element to meet specific design requirements
 
 ### Preparation
 *Before this lesson, students should already be able to:*
 
-- Write basic HTML/CSS
-- Read and write basic vanilla Javascript
-- Read and write basic jQuery
+- **Write** basic HTML/CSS
+- **Read** and **write** basic vanilla Javascript
+- **Read** and **write** basic jQuery
 
 ## Instructions:
 This lab will take you through a series of exercises intended to illustrate the thought process about how to develop code based on a complex technical requirement. You will be provided a series of challenges, each of which builds on what you did in the last one. The files are located on separate branches of this project.
