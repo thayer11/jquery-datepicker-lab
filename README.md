@@ -33,7 +33,9 @@ This lab will take you through a series of exercises intended to illustrate the 
 
 Please fork and clone this repo in your local dev environment. _(Note: Do not send pull requests when code is designed to live on separate branches.)_
 
-Open `index.html` in your browser and follow the instructions in `script.js`. From the terminal, type `git checkout step-1`. Each version of the script file contains detailed instructions about how to proceed through the exercises.
+From the terminal, type `git checkout step-1`. Each version of the script file contains detailed instructions about how to proceed through the exercises. Open `index.html` in your browser and follow the instructions in `script.js`. 
+
+When you are ready to move on to the next step, checkout the next step (step-2, step-3, ..., step-6-stretch, step-7), open `index.html` in your browser, and follow the instructions for that step in `script.js`.
 
 If you get stuck, ask for help, or move on to the next step. The focus is on understanding what is happening at each step, not on trying to understand everything at first glance.
 
