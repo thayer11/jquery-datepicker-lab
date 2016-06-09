@@ -28,7 +28,7 @@ $("#datepicker").on("change", function(a){
 
 
 
-// 9. For the second variable, you need to call getTime on your today variable
+// 9. For the second variable `b`, today's time, you need to call getTime on your today variable
 
 // 10. Now we need a variable to store the difference in days between today and the end date selected by the user.
 // Basically, we need to subtract b from a
