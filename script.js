@@ -15,11 +15,12 @@ $("#todayDate").html(m_names[curr_month] + ". " + curr_date + ", " + curr_year);
 // _____
 
 
-// 6. Now we need to create a function daysLeft()
+// 6. Now we need to create a function daysLeft(), 
+// which will eventually tell us how many days are left until the date we pick in our datepicker
 
 // _____
 
-// 7. daysLeft will need some local variables. Let's define the first one as `a`
+// 7. daysLeft will need some local variables. Let's define the first one, the time we pick, as `a`
 // You need to call datepicker's 'getDate' method and then you have to call the Date() object's .getTime(); method on the whole thing:
 
 // var a = _____
