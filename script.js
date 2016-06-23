@@ -20,17 +20,21 @@ var datepicker = $("#datepicker").datepicker();
 function daysLeft(){
 // 7. daysLeft will need some local variables. Let's define the first one, the time we pick, as `a`
 // You need to call datepicker's 'getDate' method and then you have to call the Date() object's .getTime(); method on the whole thing:
-var a = datepicker.getDate();
-var b = a.getTime();
-return a;
+     var a = $( "#datepicker" ).datepicker('getDate').getTime();
+    // solutions for 9, 10, 11 and 12 go here:
+     var b = today.getTime();
+     var c = ('a' - 'b');
 
+console.log(a);
+console.log(b);
 }
 // 8. Outside of the daysLeft() function, we need to call daysLeft() using jQuery's .on('change', ____) event handler.
 // Implement the function so it logs the value of `a` every time you click a date on the calendar.
 
-$("#datepicker").on('click', function() {
+$("#datepicker").on("change", function(a){
     daysLeft();
- });
+    console.log();
+});
 
 
 // HINT:
