@@ -13,8 +13,11 @@ function daysLeft() {
 	// solutions for 9, 10, 11 and 12 go here:
 
 	var b = today.getTime();
-	var c = 86400000
-	var d = (a-b)	
+	var c = 24*60*60*1000;
+	console.log(c);
+
+	var d = Math.round((a-b)/c);
+	console.log(d);	
 	// we will remove this later:
 	return a;
 }
@@ -22,7 +25,7 @@ function daysLeft() {
 
 $("#datepicker").on("change", function(a){
 	daysLeft();
-	console.log(a);
+	console.log();
 });
 
 
