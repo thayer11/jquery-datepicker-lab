@@ -7,6 +7,7 @@ var curr_year = today.getFullYear();
 
 $("#todayDate").html(m_names[curr_month] + ". " + curr_date + ", " + curr_year);
 $("#datepicker").datepicker();
+var diffDaysDisplay = " ";
 
 function daysLeft() {
 	var a = $( "#datepicker" ).datepicker('getDate').getTime();
@@ -17,13 +18,15 @@ function daysLeft() {
 // 13. You are almost there!
 // We need a variable where we can store the integer value difference of days and display that in a concatenated HTML string.
 // "You have ____ days left!"
-var intgDiff = "You have " + diffDays + " days left!";
-return intgDiff 
+diffDaysDisplay = ("You have " + diffDays + " days left!");
+
 }
-$("#result").html(daysLeft());
 
 $("#datepicker").on("change", function(){
 	daysLeft();
+$("#result").html(diffDaysDisplay);
+
+
 
 // 14. Now, instead of console.log, let's update the HTML string every time the user clicks a date.
 // Use jQuery to write the result string in the element with an id of 'result'
